@@ -1,5 +1,3 @@
-import 'dart:html';
-
 void main(List<String> args) {
   var age1 = 100;
   print(age1);
