@@ -29,6 +29,9 @@ void main(List<String> args) {
   } else {
     print('error destination');
     return;
+    // ye reutnr k baad jo b statement hongay wo run nai karega....
+    // tu agar hm chahtay hain k iss k baad neechay koi b statement run na ho
+    // tu hm return;  likh sktay hain iss k neechay koii b statement run nai hoga...
   }
 
   print('shipping cose $cost');
