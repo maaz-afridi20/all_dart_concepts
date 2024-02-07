@@ -3,6 +3,7 @@ void main(List<String> args) {
   //! the constants class.
   print(Constants.greeting);
   print(Constants.bye);
+  print(Constants.giveSomeValue());
 
   /* 
   like this when we createa object we access the variables of the
@@ -21,7 +22,13 @@ void main(List<String> args) {
 class Constants {
   static String greeting = 'Hello, how are you';
   static String bye = 'Bye!.';
+
+  static int giveSomeValue() {
+    return 10;
+  }
 }
+
+
 
 /*
 !Static Variables
@@ -38,4 +45,9 @@ so this is why we use static variables.
 so by creating the static variable and when we call it the constructor
 of that class will not be called because we did not create the instance of that class
 
+
+
+
+!Static Functions(methods)
+this is also like the static variables
 */ 
