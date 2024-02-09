@@ -72,6 +72,21 @@ class Bike implements Vehicle {
 
 /*
 !Implements Explanation 
+
+
+the main difference between the implements and the extends is that.
+k agar hm implement karengay tu humein override zaroor krna parega.
+for example agar hm nay animal class banai hai orr uss mein aik methodd hai eating()
+agar aik orr class hai (Cow) orr uss ko hm (implement) krtay hain Animal
+tu hm agar chahein ya na chahein humein jo animal class mein (eating) method hai
+wo zaroor @override krna parega. 
+its not just the method its all the variables,functions etc all the things
+we have to override. so this is the main difference between the implement 
+and the extends.
+
+while when we use extends its optional to @override or not. it depends on us.
+
+
 in the implements. like 
 jab hm nay inheritance mein extends use kiyaa thaa tu 
 uss mein jo child class hoti hai uss mein sari properties 
@@ -90,6 +105,14 @@ sab ko override karna parega... jab hm implements use krtay hain
 we can use extends and implements at the same time
 ! like Car extends OtherClass implements Vehicle 
 but it cannot extend and implements the same class at the same time.
+
+
+
+
+
+
+
+
 */
 
 class OtherClass {
