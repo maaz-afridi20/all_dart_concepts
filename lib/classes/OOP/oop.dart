@@ -67,7 +67,7 @@ and the data is hidden from the outside world.
 it provides the data protection and data hiding.
 so just we have learned in the private variable etc.
 when we use getter and setter 
-this is exactly the encapsulation becaulse when we use private variables
+this is exactly the encapsulation because when we use private variables
 the outside classes cannot see it so we have
 capsuled the imp data in single thing or class and no one can see it.
 it basically use the private or public things to encapsulate the data
