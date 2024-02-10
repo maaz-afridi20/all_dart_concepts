@@ -46,7 +46,8 @@ iss ka matlab hai k agar ranawat ki value null na ho tu
 usss ki value humein dedo... orr agar kahin ranawat ki value null
 ho tu humein siraf null print kr do...
 
-
+in the value of the map we can have anything like 
+it can also be class.
 
 
 

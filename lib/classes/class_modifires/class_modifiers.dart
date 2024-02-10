@@ -1,14 +1,14 @@
 void main(List<String> args) {
-  Animal animal = Cat();
+  // Animal animal = Cat();
 
-  switch (animal) {
-    case Dog():
-      print('dog');
-    case Cat():
-      print('Cat');
-    case Human():
-      print('Human');
-  }
+  // switch (animal) {
+  //   case Dog():
+  //     print('dog');
+  //   case Cat():
+  //     print('Cat');
+  //   case Human():
+  //     print('Human');
+  // }
 }
 
 sealed class Animal {}
@@ -49,9 +49,16 @@ we use it before when we creating a abstract class.
 
 !sealed class
 sealed class is also just like the abstract class
+!A sealed class is a class that restricts which other classes can inherit from it
 because we also cannot instantiate the sealed class just like the abstract class
 when we create a sealed class and when we call the sealed class
 its constructor cannot be called just like other classes
+
+in sealed class hm ye kr sktay hain k for example 
+hm nay aik class banaii hai shapes orr hm chahtay hain k only specific
+shapes hii iss say extends kr saktay tu hm ye sealed class k sath
+kr sktay hain..
+
 
 !final class
 !base class

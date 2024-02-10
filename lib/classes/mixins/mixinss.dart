@@ -22,6 +22,11 @@ mixin Run {
   bool isRunning = true;
 }
 
+//! it can also be write as.
+mixin class Runn {
+  String name = 'runngasdfs';
+}
+
 //! this is for single mixin...
 // class Animal with Jump{
 //   void fn() {
