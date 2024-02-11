@@ -20,6 +20,7 @@ abstract class Electronics {
 }
 
 class MobilePhone extends Electronics {
+  @override
   void watching() {
     print('phone is watched');
   }
