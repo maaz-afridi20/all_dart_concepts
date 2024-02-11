@@ -27,6 +27,7 @@ void countDown() {
   controller.sink.add(3);
   controller.sink.add(4);
   controller.sink.add(5);
+  // controller.sink.addError('some Error'); // this will throuw error.
   controller.sink.close(); // this will close the stream
 
   controller.stream.listen((vall) {
